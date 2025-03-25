@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gasosa</string>
+    <string name="title">Calculadora de Gasosa</string>
+    <string name="weight">Gasolina (R$)</string>
+    <string name="height">Etanol (R$)</string>
+    <string name="calculate_button">Calcular</string>
+    <string name="imc_text">Vale a pena:</string>
+</resources>
