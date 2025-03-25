@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/title_text"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/fields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/name_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/name_text"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/name_text"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/name_input"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/address_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/address_text"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/address_text"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/address_input"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/complement_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/complement_text"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/complement_text"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/complement_input"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/district_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0">
+
+                <TextView
+                    android:id="@+id/district_text"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/district_text"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/district_input"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/city_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0">
+
+                <TextView
+                    android:id="@+id/city_text"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/city_text"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/city_input"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/zip_code_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0">
+
+                <TextView
+                    android:id="@+id/zip_code_text"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/zip_code_text"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/zip_code_input"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/landline_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0">
+
+                <TextView
+                    android:id="@+id/landline_text"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/landline_text"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/landline_input"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cellphone_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0">
+
+                <TextView
+                    android:id="@+id/cellphone_text"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/cellphone_text"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/cellphone_input"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ssn_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0">
+
+                <TextView
+                    android:id="@+id/ssn_text"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/ssn_text"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/ssn_input"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cadastros</string>
+    <string name="title_text">\nCadastro</string>
+    <string name="name_text">Nome</string>
+    <string name="address_text">Endereço</string>
+    <string name="complement_text">Complemento</string>
+    <string name="district_text">Bairro</string>
+    <string name="city_text">Cidade</string>
+    <string name="zip_code_text">CEP</string>
+    <string name="landline_text">Telefone Fixo</string>
+    <string name="cellphone_text">Celular</string>
+    <string name="ssn_text">CPF</string>
+    <string name="register_button">Cadastrar</string>
+</resources>
